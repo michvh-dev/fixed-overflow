@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fixed overflow</title>
+  </head>
+  <body>
+    <nav class="nav">
+      <div class="nav-inner">
+        <a href="#"> </a>
+        <div>
+          <ul class="nav-list">
+            <li>Link 1</li>
+            <li>Link 2</li>
+            <li>Link 3</li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="header">
+      <div>
+        <h2>Section 1</h2>
+      </div>
+    </div>
+    <div class="section section-white"></div>
+    <div class="section section-black" data-overflow-class="white"></div>
+    <div class="section section-white" data-overflow-class="black"></div>
+    <div class="section section-black" data-overflow-class="white"></div>
+  </body>
+</html>
