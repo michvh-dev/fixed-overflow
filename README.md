@@ -1,6 +1,6 @@
-# @michvh-dev: Scroll behavior
-> This is a component that updates the scroll behavior of the browser, now the only type is scrolling over the content
-> Live demo [_here_](https://scroll-behavior.michvh.dev/example/).
+# @michvh-dev: Fixed overflow
+> This is a small utilitie that gives the possibility to mask fixed elements when you scroll over different element
+> Live demo [_here_](https://fixed-overflow.michvh.dev/example/).
 
 ## Table of Contents
 * [General Info](#general-information)
@@ -9,35 +9,33 @@
 
 
 
-## General Information
-This component gives you a new scroll behavior that gives a cleaner and beautifull scroll behavior
-- It supports the mobile velocity autoscroll
-- It supports the keyboard events
 
+## General Information
+This js utility helps you to seamlesly update fixed elements
 
 
 ## Installation
 ### npm
 ```
-npm i @michvh-dev/scroll-behavior -S
+npm i @michvh-dev/fixed-overfloww -S
 ```
 
 ### yarn
 ```
-yarn add @michvh-dev//scroll-behavior
+yarn add @michvh-dev/fixed-overflow
 ```
 
 ## Usage
 
 ```js
-import ScrollBehavior from '@michvh-dev//scroll-behavior';
+import FixedOverflow from '@michvh-dev//fixed-overfloww';
 
-const elements= document.querySelectorAll('.section');
-new ScrollBehavior({
+const elements= document.querySelectorAll('.header, .sidebar');
+new FixedOverflow({
     element: elements,
 });
 // or 
-new ScrollBehavior({
-    elementSelector: '.section',
+new FixedOverflow({
+    elementSelector: '.header, .sidebar',
 });
 ```
