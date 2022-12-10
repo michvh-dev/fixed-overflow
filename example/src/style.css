@@ -32,6 +32,24 @@ html {
 
 .nav-list li {
   display: inline-block;
+  font-size: 1.5rem;
+  margin-left: 1rem;
+}
+.sidebar-menu {
+  position: fixed;
+  top: 50vh;
+  right: 1rem;
+  transform: translateY(-50%);
+  color: black;
+}
+.sidebar-menu button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  color: inherit;
+}
+.sidebar-menu.white {
+  color: white;
 }
 
 h2 {
