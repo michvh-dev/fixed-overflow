@@ -14,7 +14,6 @@ class FixedOverflow {
     return this._currentScrollPosition;
   }
   set currentScrollPosition(value: number) {
-    console.log(value);
     this._currentScrollPosition = value;
     this.calculateFixedOverflows();
   }
